@@ -1,11 +1,23 @@
 {
   "name": "node_netserver",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "install": "npm install net express ws"
+  },
+  "contributors": [
+    {
+      "name": "김경태",
+      "email": "tlsruwk12345@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rudwk/project",
+    "directory": "inter-diveice_chat"
   },
   "keywords": [],
   "author": "",
