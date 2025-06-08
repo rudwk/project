@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>채팅 웹사이트</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-window" id="chat-window"></div>
+    <form id="chat-form">
+      <input type="text" id="chat-input" placeholder="메시지를 입력하세요..." autocomplete="off" required />
+      <button type="submit">보내기</button>
+    </form>
+    <button onclick="leave()" id="leave-btn">종료</button>
+  </div>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
